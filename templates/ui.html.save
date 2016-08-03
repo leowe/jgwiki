@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+<body>
+
+ <div class="row">
+  <div class="col-sm-4">.col-sm-4</div>
+  <div class="col-sm-4">.col-sm-4</div>
+  <div class="col-sm-4">.col-sm-4</div>
+</div>
+
+
+<form action>
+
+
+
+<div class="row">
+	
+	<div class="col-9"> 
+  	  Suche <br>
+  	  <input type="text" name="search"><br>
+	</div>
+
+
+	<div class="col-3">
+ 	   <input type="submit" value="Such!">
+	</div>
+
+<?php
+echo $_POST("search")
+?>
+
+</div>
+
+</form> 
+ 
+</body>
+
+</html>

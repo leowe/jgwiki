@@ -1,0 +1,49 @@
+body 
+{
+	background-color: #eee
+}
+
+.homepage
+{
+	margin-top: 200px
+}
+
+.jgw
+{
+    position: absolute;
+    left: calc(50% - 450px);
+    top: 0px;
+	width: 50%;
+	z-index: -1;
+}
+
+.width90
+{
+
+
+	width:92%;
+	display: inline-block;
+	font-size:28px;
+	height: 60px;
+}
+
+.button_border
+{
+
+	border-top-left-radius    : 0px;
+	border-top-right-radius    : 0px;
+	border-bottom-right-radius    : 0px;
+	border-bottom-left-radius    : 0px;
+    	margin-left: -4px;
+	margin-top: -12px;
+	width: 8%;
+	height: 60px;
+}
+
+.form_border
+{
+	border-top-left-radius    : 0px;
+	border-top-right-radius    : 0px;
+	border-bottom-right-radius    : 0px;
+	border-bottom-left-radius    : 0px;
+}

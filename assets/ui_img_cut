@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="assets/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/styles.css" rel="stylesheet">
+	<link href="assets/platzhalter-vorlage.jpg">
+	<link href="assets/kurs1.svg" rel="stylesheet">
+  </head>
+  
+
+	<body>
+		
+
+		  <div class="container">
+		    <form action="/search" method="post">
+			<div class="row">
+			  <img src="assets/platzhalter-vorlage.jpg" class="jgw"> 
+			</div>
+
+		      <div class="row">
+						<img src="assets/platzhalter-vorlage.jpg" class="jgw"> 
+
+						<div class="col-sm-12"> 
+								<input class="form-control width90 form_border" type="text" name="search">		
+				 	      <input class="btn btn-success button_border" type="image" alt="submit" src="assets/kurs1.svg">
+						</div>
+			
+		      </div>
+			<div class="row">
+			  <img src="assets/platzhalter-vorlage.jpg" class="jgw"> 
+			</div>
+
+		    </div>
+		  </form> 
+ 
+  </body>
+
+</html>

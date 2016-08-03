@@ -1,0 +1,17 @@
+	{% extends "base.html" %}
+	{% block search %}
+	
+	<form class="homepage" action="/search" method="post">
+		<div class="row">
+					<img src="assets/JGW.svg" class="jgw" width="500px"> 
+
+					<div class="row">
+						<input class="form-control width90 form_border" type="text" name="search">		
+						<input class="btn btn-success button_border" type="image" alt="submit" src="assets/kurs1.svg">	
+					</div>
+		</div>
+	</form> 
+
+	{% endblock %}
+
+	

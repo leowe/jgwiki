@@ -1,0 +1,39 @@
+	{% extends "base.html" %}
+	{% block searchbar %}
+		
+		<form action="/search" method="post">
+						<input class="form-control width90 form_border" type="text" name="search" placeholder={{ previous_query }}>		
+						<input class="btn btn-success button_border" type="image" alt="submit" src="assets/kurs1.svg">
+		</form>	
+		
+	{% endblock %}
+
+
+	{% block result %}	
+		
+			<div class="row">
+				<div class="col-1">
+				</div>
+				<div class="col-11" style="margin-left:40px"> 
+					<h1> Suchergebnisse </h1>
+						<br></br>
+				</div>
+			</div>
+
+			<div class="row">
+						<ul id="results-list">
+							<table class="table table-striped">
+									<tbody>
+										{% for item in results %}
+						
+											<tr>
+												<td class="col-sm-1"> <a href="https://de.wikipedia.org/wiki/{{ item }}"> {{ item }} </a> </td>							
+											</tr>
+					
+										{% endfor %}
+									</tbody>
+							</table>
+						</ul>
+			</div>
+			
+	{% endblock %}
